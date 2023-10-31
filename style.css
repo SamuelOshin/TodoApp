@@ -4,7 +4,8 @@
     box-sizing: border-box;
   }
   body {
-    background: linear-gradient(#663399 50%, #7B68EE 50%);
+    /* height: 100vh; */
+    background: linear-gradient(#663399 5%, #7B68EE 50%);
   }
 
   .app{
@@ -138,7 +139,7 @@
   top: 3.5em;
   width: 50%;
   height: auto;
-  z-index: 1;
+  z-index: -1;
   margin-left: -7rem;
 }
 
@@ -151,7 +152,7 @@
 .task input.task-check {
   width: 20px;
   height: 20px;
-  margin-top: 2px; 
+  margin-top: 2px;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
