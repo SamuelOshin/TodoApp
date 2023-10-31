@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(#663399 50%, #7B68EE 50%);
+  }
+
+  .app{
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    max-width: 34em;
+    position: relative;
+    top: 50%; 
+    overflow-y: hidden;
+    margin: 0 auto;
+    
+
+  }
+  .container {
+    padding: 2em 2.5em;
+  
+  }
+
+  header{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    padding-top: 2em;
+    display: flex;
+    width:100%;
+    justify-content: center;
+  }
+  h1 span{
+    color: #fb3b3b;
+  }
+  #new-task {
+    
+    position: relative;
+    background-color: #ffffff;
+    padding: 1.8em 1.25em;
+    border-radius: 0.3em;
+    box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+  }
+  #new-task input {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    border: none;
+    border-bottom: 2px solid #d1d3d4;
+    padding: 0.8em 0.5em;
+    color: #111111;
+    font-weight: 500;
+  }
+  #new-task input:focus {
+    outline: none;
+    border-color: #0b87ff;
+  }
+  #new-task button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #0b87ff;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+  }
+  #tasks {
+    background-color: #ffffff;
+    position: relative;
+    padding: 1.8em 1.25em;
+    margin-top: 1.5em;
+    width: 100%;
+    box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+    border-radius: 0.6em;
+    overflow-y: auto hidden;
+    overflow-x: hidden;
+    height: 13em
+  }
+  .task {
+    background-color: #ffffff;
+    padding: 0.3em 0.6em;
+    margin-top: 0.6em;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+  }
+  .task span {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+  .task button {
+    color: #ffffff;
+    padding: 0.8em 0;
+    width: 2.8em;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .delete {
+    background-color: #fb3b3b;
+  }
+  .edit {
+    background-color: #0b87ff;
+    margin-left: auto;
+    margin-right: 3em;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+
+#error{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1em 0;
+  margin-top: 1em;
+  border-radius: 0.8em;
+  color: #fb3b3b;
+  display: none;
+
+}
+
+#pending-task{
+  font-family: "Poppins", sans-serif;
+
+}
+
+.left-image {
+  position: absolute;
+  left: 20px;
+  top: 3.5em;
+  width: 50%;
+  height: auto;
+  z-index: 1;
+  margin-left: -7rem;
+}
+
+
+.task input.task-check {
+  margin-right: 10px;
+}
+
+
+.task input.task-check {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px; 
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #d1d3d4;
+  border-radius: 3px;
+}
+
+
+.task input.task-check:checked {
+  background-color: #FA8072;
+  border: 2px solid #DC143C;
+}
+
+
+.task input.task-check:hover {
+  background-color: #f2f2f2; 
+}
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 1.5em;
+  }
+
+  .left-image{
+    position: relative;
+    margin-left: 100px;
+  }
+
+  body{
+    max-width: auto;
+  }
+}
