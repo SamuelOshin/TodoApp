@@ -35,14 +35,39 @@
   }
   #new-task {
     
+<<<<<<< HEAD
     position: relative;
+        
     background-color: #ffffff;
+        
     padding: 1.8em 1.25em;
+        
     border-radius: 0.3em;
+        
     box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+        
     display: grid;
+        
     grid-template-columns: 9fr 3fr;
+        
     gap: 1em;
+=======
+position: relative;
+    
+background-color: #ffffff;
+    
+padding: 1.8em 1.25em;
+    
+border-radius: 0.3em;
+    
+box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+    
+display: grid;
+    
+grid-template-columns: 9fr 3fr;
+    
+gap: 1em;
+>>>>>>> 13d21f582c78ec8cfe3164432bb9634d194e4d38
   }
 
   @media (max-width: 768px) {
@@ -206,14 +231,25 @@
   background-color: #f2f2f2; 
 }
 
-/* @media only screen and (max-width: 600px){
-  h1{
-    font-size: 1.5em;
+
+@media (max-width: 320px) {
+  #new-task {
+    padding: 1.2em 1em; 
   }
 
-  
-
-  body{
-    max-width: auto;
+  #new-task input {
+    font-size: 0.8rem; 
   }
-} */
+<<<<<<< HEAD
+
+  .task {
+    padding: 0.2em 0.4em; 
+  }
+
+  .task button {
+    padding: 0.5em 0.2em; 
+    margin-right: 3px;
+  }
+=======
+>>>>>>> 13d21f582c78ec8cfe3164432bb9634d194e4d38
+}
