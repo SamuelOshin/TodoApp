@@ -240,7 +240,6 @@ gap: 1em;
   #new-task input {
     font-size: 0.8rem; 
   }
-<<<<<<< HEAD
 
   .task {
     padding: 0.2em 0.4em; 
@@ -250,6 +249,4 @@ gap: 1em;
     padding: 0.5em 0.2em; 
     margin-right: 3px;
   }
-=======
->>>>>>> 13d21f582c78ec8cfe3164432bb9634d194e4d38
 }
