@@ -36,19 +36,12 @@
   #new-task {
     
     position: relative;
-        
     background-color: #ffffff;
-        
     padding: 1.8em 1.25em;
-        
     border-radius: 0.3em;
-        
     box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
-        
     display: grid;
-        
     grid-template-columns: 9fr 3fr;
-        
     gap: 1em;
   }
 
@@ -213,22 +206,14 @@
   background-color: #f2f2f2; 
 }
 
-
-@media (max-width: 320px) {
-  #new-task {
-    padding: 1.2em 1em; 
+/* @media only screen and (max-width: 600px){
+  h1{
+    font-size: 1.5em;
   }
 
-  #new-task input {
-    font-size: 0.8rem; 
-  }
+  
 
-  .task {
-    padding: 0.2em 0.4em; 
+  body{
+    max-width: auto;
   }
-
-  .task button {
-    padding: 0.5em 0.2em; 
-    margin-right: 3px;
-  }
-}
+} */
