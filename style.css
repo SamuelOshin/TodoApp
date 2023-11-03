@@ -35,7 +35,6 @@
   }
   #new-task {
     
-<<<<<<< HEAD
     position: relative;
         
     background-color: #ffffff;
@@ -51,23 +50,6 @@
     grid-template-columns: 9fr 3fr;
         
     gap: 1em;
-=======
-position: relative;
-    
-background-color: #ffffff;
-    
-padding: 1.8em 1.25em;
-    
-border-radius: 0.3em;
-    
-box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
-    
-display: grid;
-    
-grid-template-columns: 9fr 3fr;
-    
-gap: 1em;
->>>>>>> 13d21f582c78ec8cfe3164432bb9634d194e4d38
   }
 
   @media (max-width: 768px) {
