@@ -90,6 +90,8 @@
     padding: 0.8em 0.5em;
     color: #111111;
     font-weight: 500;
+    width: 100%;
+    margin: 0;
   }
   #new-task input:focus {
     outline: none;
@@ -211,7 +213,7 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   #new-task {
     padding: 1.2em 1em; 
   }
