@@ -9,7 +9,7 @@
 
   .app{
     font-family: "Poppins", sans-serif;
-    width: 90%;
+    /* width: 90%; */
     max-width: 34em;
     position: relative;
     top: 50%;
