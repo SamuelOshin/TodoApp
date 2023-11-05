@@ -1,6 +1,6 @@
 # TodoApp
 
-Title: Todo App Documentation
+## Title: Todo App Documentation
 Introduction:
 Welcome to the official documentation for the Todo app. This documentation is designed to help you understand and effectively use our Todo app, whether you're a user looking to manage your tasks or a developer interested in contributing to the project.
 About the Todo App: The Todo app is a simple task management tool that allows you to create, edit, and delete tasks, helping you stay organized and productive. Whether you're managing your personal to-do list or collaborating with a team, our app makes it easy to keep track of your tasks.
@@ -8,7 +8,7 @@ Purpose of this Documentation: In this documentation, we'll provide detailed ins
 Prerequisites: Before you get started with the Todo app, you should have a basic understanding of web development, HTML, CSS, and JavaScript. To contribute to the project, you'll need a GitHub account to submit pull requests and report issues.
 Let's dive in and explore the features and capabilities of the Todo app!
 
-Overview:
+## Overview:
 Welcome to the Todo app, a powerful and intuitive task management tool designed to help you stay organized and productive. Whether you're managing your daily to-do list or collaborating with a team, our app offers a range of features to simplify task management.
 Key Features:
 •	Create tasks: Add new tasks with ease and set due dates to stay on track.
@@ -63,7 +63,8 @@ Task Count:
 The "You have x task(s) to complete" message at the top of the page reflects the number of tasks you have in your list. This count is updated in real-time as you add, complete, or delete tasks.
 Stay Organized:
 Use the Todo app to organize your daily tasks, manage work assignments, or keep track of any list of activities. It's a versatile tool designed to make task management simple and efficient.
-Screenshots:
+
+## Screenshots:
 Here are some annotated screenshots to help you get familiar with the Todo app's interface and features.
 
 
