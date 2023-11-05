@@ -16,11 +16,13 @@ Key Features:
 •	Delete tasks: Remove completed or unnecessary tasks to keep your list clean.
 •	Task completion: Mark tasks as completed and watch them get crossed off your list.
 •	Task persistence: Your tasks are saved locally using Local Storage, so they'll be there when you return to the app.
+
 Designed for Everyone:
 Our Todo app is designed for individuals, small teams, and anyone seeking a straightforward yet powerful task management solution. Whether you're a student managing assignments or a professional juggling work tasks, our app is tailored to meet your needs.
 Built with Web Technologies:
 The Todo app is built using web technologies, including HTML, CSS, and JavaScript. It's accessible through web browsers on various platforms, making it a versatile solution for task management.
-Getting Started:
+
+## Getting Started:
 Getting started with the Todo app is easy. Follow these steps to set up and run the app on your system:
 System Requirements:
 Before you proceed, make sure your system meets the following requirements:
@@ -36,9 +38,10 @@ git clone https://github.com/SamuelOshin/TodoApp.git
 2.	Navigate to the project directory:
 cd TodoApp 
 3.	Open the index.html file in your preferred web browser. You can also use a development server if you have one set up.
+
 Dependencies:
 The Todo app does not have any external dependencies. You only need a web browser to run the app, and it uses Local Storage for data persistence.
-Usage:
+## Usage:
 The Todo app offers a straightforward and user-friendly interface for managing your tasks. Follow these instructions to make the most of its features:
 Creating a Task:
 1.	On the main page, you'll see the "Enter The Task Here..." input field.
