@@ -81,10 +81,11 @@ Figure 1: The main page displays your list of tasks. You can add, edit, and dele
 
 
 Screenshot 2:  Creating a Task
-![Alt text](image2.png)
+![Alt text](images/image2.png)
  
 Figure 2: To create a new task, enter the task name in the input field and click the "Add" button. Click the "Edit" button (pencil icon) to modify a task's name. Make changes in the input field and save by clicking "Add.
 Screenshot 3: Completing a Task
+![Alt text](images/image3.png)
  
 Figure 4: Mark a task as completed by clicking the checkbox next to the task. The task name will be crossed out.
 To delete a task, click the "Delete" button (trash can icon) next to the task. The task will be removed from your list
